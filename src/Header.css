@@ -1,0 +1,32 @@
+/* Header.css */
+.header {
+  background-color: rgb(175, 114, 164); /* Green background */
+  padding: 10px;
+  color: white; /* Text color */
+  display: flex;
+  justify-content: flex-end; /* Align menu items to the top right */
+  background-color: rgb(58, 108, 9);
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header nav ul li {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.header nav ul li a {
+  color: white; /* Link color */
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

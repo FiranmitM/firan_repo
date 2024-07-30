@@ -1,0 +1,255 @@
+/* General Styles */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #6f88b9;
+  padding: 5px;
+  color: rgb(7, 7, 7);
+  padding-bottom: 5px;
+  align-items: end;
+  justify-content: center;
+
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 2px;
+  padding-bottom: 10px;
+  
+
+}
+
+.menu li {
+  margin: 0 10px;
+  font-size: 30px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #61dafb;
+}
+
+/* Body Styles */
+.App-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  min-height: calc(100vh - 16px); /* Adjust for header and footer height */
+}
+
+.photo {
+  flex: 0 0 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(121, 37, 37, 0.1);
+}
+
+.description {
+  margin-left: 20px;
+  text-align: left;
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(255, 255,244);
+  border-radius: 8px;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+  margin: 0 0 40px;
+}
+
+.description a {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.description a:hover {
+  color: #282c34;
+}
+
+/* Footer Styles */
+.App-footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  gap: 10px; /* Space between icons */
+}
+
+.social-media {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding:0;
+}
+
+.social-media li {
+  margin: 0 20px; /* Reduce spacing */
+  
+
+}
+
+.social-media a {
+  color: yellowgreen;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 40px; /* Increase size of icons */
+  padding-right: 40px;
+}
+
+.social-media a:hover {
+  color: #101010;
+}
+
+/* About Page Styles */
+.about-page {
+  padding: 50px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  text-align: left;
+}
+
+.about-page h1 {
+  color: #333;
+}
+
+.about-page p {
+  color: #555;
+}
+
+.about-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-page ul li {
+  margin: 10px 0;
+}
+
+.about-page ul ul {
+  margin: 0 0 0 20px;
+}
+
+.official{
+ display: flex;
+ position: relative;
+ align-items: start;
+ padding-left: 30px;
+}
+
+
+.App-body {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.photo {
+  flex: 1;
+  padding: 10px;
+  font-size: 200px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  flex: 2;
+  padding: 20px;
+  position: relative;
+  background-color: green;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.text-background {
+  background-image: url('/public/dr_photo_2.jpeg'); /* Set the path to your background photo */
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+  
+  color: rgb(21, 10, 142); /* Text color to stand out against the background */
+  border-radius: 100px; /* Optional: for rounded corners */
+  box-shadow: 0px 4px 8px rgba(100, 100, 0, 0.3); /* Optional: for a shadow effect */
+}
+
+.text-background h1,
+.text-background h2,
+.text-background p,
+.text-background ul {
+  margin: 0 0 15px 0; /* Adjust spacing as needed */
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 10;
+}
+
+.App-header {
+  display: flex;
+  justify-content: flex-end; /* Aligns the nav to the right */
+  padding: 20px;
+  background-color: #f4f4f4; /* Background color for the header */
+}
+
+.nav-menu {
+  display: flex;
+  align-items: row ;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align menu items horizontally */
+}
+
+.nav-menu ul li {
+  margin-left: 20px; /* Space between menu items */
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #333; /* Text color */
+  font-weight: bold; /* Optional: for bold text */
+}
+
+
